@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CrmException extends RuntimeException{
     private ExceptionEnums exceptionEnums;
-    private int code; // 状态码
-    private  String msg;
+//    private int code; // 状态码
+//    private  String msg;
 }
